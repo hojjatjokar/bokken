@@ -1,19 +1,22 @@
 # Bokken
 
 ## TODO: 
-- [ ] Config monorepo with lerna
+- [ ] Config monorepo
 - [ ] Add package: app
-  * [ ] config webpack
-  * [ ] config babel
-  * [ ] config react
-  * [ ] config styles
-  * [ ] config router
+  * [ ] Config webpack
+  * [ ] Config babel
+  * [ ] Config react
+  * [ ] Config style
+  * [ ] Config router
+  * [ ] Config test
 - [ ] Add package: components
   * [ ] Add storybook
   * [ ] Add tests
   * [ ] Add list of components to todo list
 - [ ] Add package: utils
+  * [ ] Add tests
 - [ ] Add editorconfig
+- [ ] Add gitignore
 - [ ] Add linter config
 - [ ] Add prettier config
 - [ ] Add commit message config
