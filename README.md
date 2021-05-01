@@ -1,7 +1,9 @@
 # Bokken
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+
 
 ## TODO: 
-- [ ] Config monorepo
+- [x] Config monorepo
 - [ ] Add package: app
   * [ ] Config webpack
   * [ ] Config babel
