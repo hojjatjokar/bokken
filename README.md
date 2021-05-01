@@ -1,10 +1,6 @@
 # Bokken
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
-[![MIT License][license-badge]][license]
-[![All Contributors][all-contributors-badge]](#contributors-)
-[![PRs Welcome][prs-badge]][prs]
-
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## TODO: 
 - [x] Config monorepo
