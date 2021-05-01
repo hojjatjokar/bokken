@@ -1,5 +1,6 @@
 import './style.css';
 import Icon from './bokken.svg';
+import another from './another';
 
 function component() {
   const element = document.createElement('div');
