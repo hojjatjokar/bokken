@@ -5,14 +5,6 @@
   "keywords": [],
   "author": "Hojjat Jokar",
   "license": "ISC",
-  "main": "lib/app.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
   "publishConfig": {
     "access": "public"
   },
@@ -21,10 +13,17 @@
     "url": "git+https://github.com/hojjatjokar/bokken.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack --config webpack.config.js"
   },
   "bugs": {
     "url": "https://github.com/hojjatjokar/bokken/issues"
   },
-  "homepage": "https://github.com/hojjatjokar/bokken#readme"
+  "homepage": "https://github.com/hojjatjokar/bokken#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  }
 }
