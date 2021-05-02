@@ -5,14 +5,17 @@
 ## TODO: 
 - [x] Config monorepo
 - [ ] Add package: app
-  * [X] Config webpack
+  * [x] Config webpack
   * [ ] Config babel
   * [ ] Config react
   * [ ] Config style
+  * [ ] Config https://stylelint.io/
   * [ ] Config router
   * [ ] Config test
   * [ ] Config webpack-bundle-analyzer
   * [ ] Add env
+  * [ ] Typescript
+  * [ ] browserslist
 - [ ] Add package: components
   * [ ] Add storybook
   * [ ] Add tests
@@ -20,7 +23,7 @@
 - [ ] Add package: utils
   * [ ] Add tests
 - [ ] Add editorconfig
-- [ ] Add gitignore
+- [x] Add gitignore
 - [ ] Add linter config
 - [ ] Add prettier config
 - [ ] Add commit message config
