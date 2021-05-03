@@ -12,6 +12,7 @@ function component() {
   myIcon.src = Icon;
 
   element.appendChild(myIcon);
+  another({ title: 'Title', id: 1 });
   return element;
 }
 

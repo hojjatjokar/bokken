@@ -6,7 +6,7 @@
 - [x] Config monorepo
 - [ ] Add package: app
   * [x] Config webpack
-  * [ ] Config babel
+  * [x] Config babel
   * [ ] Config react
   * [ ] Config style
   * [ ] Config https://stylelint.io/
@@ -14,7 +14,7 @@
   * [ ] Config test
   * [ ] Config webpack-bundle-analyzer
   * [ ] Add env
-  * [ ] Typescript
+  * [x] Add Typescript
   * [ ] browserslist
 - [ ] Add package: components
   * [ ] Add storybook
