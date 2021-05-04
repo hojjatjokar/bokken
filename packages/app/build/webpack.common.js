@@ -3,29 +3,29 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    app: './src/index.ts',
+    app: './src/index.tsx',
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Bokken',
-    }),
+      template: './public/index.html',
+  }),
   ],
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/,
-      },
-      {
-        test: /\.m?js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env']
+            presets: ['@babel/preset-env', "@babel/preset-typescript"]
           }
-        }
+        },
+      },
+      {
+        test: /\.(ts|tsx)$/,
+        exclude: /node_modules/,
+        use: ["ts-loader"],
       },
       {
         test: /\.css$/i,
