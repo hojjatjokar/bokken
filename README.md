@@ -24,10 +24,10 @@
   - [ ] Add list of components to todo list
 - [ ] Add package: utils
   - [ ] Add tests
-- [ ] Add editorconfig
+- [x] Add editorconfig
 - [x] Add gitignore
 - [ ] Add linter config
-- [ ] Add prettier config
+- [x] Add prettier config
 - [ ] Add commit message config
 - [ ] Add contribution and brnaching docs
 - [ ]
