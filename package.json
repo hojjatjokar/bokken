@@ -11,7 +11,8 @@
   "scripts": {
     "clean": "lerna clean --yes",
     "bootstrap": "npm ci && lerna bootstrap --hoist",
-    "format": "prettier --write 'packages/*/!(node_modules)/**/*.{js,jsx}'"
+    "format": "prettier --write 'packages/*/!(node_modules)/**/*.{js,jsx,ts,tsx}'",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
