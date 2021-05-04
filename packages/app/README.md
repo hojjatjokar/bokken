@@ -3,20 +3,26 @@
 > TODO: description
 
 ## Development
+
 `npm run dev`
 
 ## Production build
+
 `npm run build`
 
 ## Supports:
 
+### TS
+
 ### JS
-[X] ES6 import
-[X] [Modules Api](https://webpack.js.org/api/module-methods/)
-[ ] ...
+
+- [x] ES6 import
+- [x] [Modules Api](https://webpack.js.org/api/module-methods/)
+- [ ] ...
 
 ### Assets
-[X] CSS
-[X] Images: png|svg|jpg|jpeg|gif
-[X] Fonts: woff|woff2|eot|ttf|otf
 
+- [x] CSS
+- [x] Images: png|svg|jpg|jpeg|gif
+- [x] Fonts: woff|woff2|eot|ttf|otf
+- [ ] ...
