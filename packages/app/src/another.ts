@@ -1,9 +1,9 @@
 interface Obj {
-  title: string,
-  id: number,
-};
+  title: string;
+  id: number;
+}
 
-function another(obj: Obj){
+function another(obj: Obj): void {
   console.log('another', obj);
 }
 

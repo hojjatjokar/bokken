@@ -27,7 +27,7 @@
   - [ ] Add tests
 - [x] Add editorconfig
 - [x] Add gitignore
-- [ ] Add linter config
+- [x] Add linter config
 - [x] Add prettier config
 - [ ] Add commit message config
 - [ ] Add contribution and brnaching docs
