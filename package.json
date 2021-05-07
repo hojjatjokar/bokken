@@ -3,6 +3,8 @@
   "private": true,
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
     "@typescript-eslint/eslint-plugin": "^4.22.1",
     "@typescript-eslint/parser": "^4.22.1",
     "eslint": "^7.25.0",
@@ -17,8 +19,7 @@
     "clean": "lerna clean --yes",
     "bootstrap": "npm ci && lerna bootstrap --hoist",
     "format": "prettier --write 'packages/*/!(node_modules)/**/*.{js,jsx,ts,tsx}'",
-    "lint": "eslint 'packages/*/!(node_modules)/**/*.{js,jsx,ts,tsx}'",
-    "precommit": "npm run format && npm run lint"
+    "lint": "eslint 'packages/*/!(node_modules)/**/*.{js,jsx,ts,tsx}'"
   },
   "husky": {
     "hooks": {
@@ -27,7 +28,10 @@
   },
   "lint-staged": {
     "*.{js,jsx,json,css,scss,ts,tsx,md}": [
-      "npm run precommit"
+      "npm run format"
+    ],
+    "packages/*/!(node_modules)/**/*.{js,jsx,ts,tsx}": [
+      "npm run lint"
     ]
   }
 }
