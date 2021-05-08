@@ -7,6 +7,8 @@
     "@commitlint/config-conventional": "^12.1.1",
     "@typescript-eslint/eslint-plugin": "^4.22.1",
     "@typescript-eslint/parser": "^4.22.1",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.25.0",
     "eslint-plugin-react": "^7.23.2",
     "husky": "^6.0.0",
@@ -19,11 +21,13 @@
     "clean": "lerna clean --yes",
     "bootstrap": "npm ci && lerna bootstrap --hoist",
     "format": "prettier --write 'packages/*/!(node_modules)/**/*.{js,jsx,ts,tsx}'",
-    "lint": "eslint 'packages/*/!(node_modules)/**/*.{js,jsx,ts,tsx}'"
+    "lint": "eslint 'packages/*/!(node_modules)/**/*.{js,jsx,ts,tsx}'",
+    "cm": "cz"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
   },
   "lint-staged": {
@@ -33,5 +37,10 @@
     "packages/*/!(node_modules)/**/*.{js,jsx,ts,tsx}": [
       "npm run lint"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
