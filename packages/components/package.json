@@ -21,10 +21,20 @@
     "url": "git+https://github.com/hojjatjokar/bokken.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "bugs": {
     "url": "https://github.com/hojjatjokar/bokken/issues"
   },
-  "homepage": "https://github.com/hojjatjokar/bokken#readme"
+  "homepage": "https://github.com/hojjatjokar/bokken#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "babel-loader": "^8.2.2"
+  }
 }
