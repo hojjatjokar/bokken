@@ -21,11 +21,13 @@
   - [x] Add Typescript
   - [ ] browserslist
 - [ ] Add package: components
-  - [ ] Add storybook
+  - [x] Add storybook
   - [ ] Add tests
   - [ ] Add list of components to todo list
+  - [ ] Add build tools
 - [ ] Add package: utils
   - [ ] Add tests
+  - [ ] Add build tools
 - [x] Add editorconfig
 - [x] Add gitignore
 - [x] Add linter config
