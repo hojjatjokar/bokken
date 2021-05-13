@@ -33,15 +33,28 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
       </div>
       <div>
         {user ? (
-          <Button size="small" onClick={onLogout} label="Log out" />
+          <Button
+            size="small"
+            onClick={onLogout}
+            label="Log out"
+            primary
+            backgroundColor
+          />
         ) : (
           <>
-            <Button size="small" onClick={onLogin} label="Log in" />
+            <Button
+              size="small"
+              onClick={onLogin}
+              label="Log in"
+              primary
+              backgroundColor
+            />
             <Button
               primary
               size="small"
               onClick={onCreateAccount}
               label="Sign up"
+              backgroundColor
             />
           </>
         )}
