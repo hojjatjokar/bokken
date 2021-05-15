@@ -24,7 +24,8 @@
   - [x] Add storybook
   - [ ] Add tests
   - [ ] Add list of components to todo list
-  - [ ] Add build tools
+  - [x] Add build tools
+  - [x] Add Typescript
 - [ ] Add package: utils
   - [ ] Add tests
   - [ ] Add build tools
@@ -34,4 +35,3 @@
 - [x] Add prettier config
 - [x] Add commit message config
 - [ ] Add contribution and brnaching docs
-- [ ]
