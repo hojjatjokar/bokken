@@ -41,6 +41,7 @@
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {
-    "@bokken/components": "^0.0.0"
+    "@bokken/components": "^0.0.0",
+    "@bokken/utils": "^0.0.0"
   }
 }
