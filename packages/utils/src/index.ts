@@ -1,5 +1,3 @@
-function noob() {
-  console.log('noob');
-}
+import { sum } from './math';
 
-export { noob };
+export { sum };
