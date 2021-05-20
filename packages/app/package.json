@@ -14,7 +14,8 @@
   },
   "scripts": {
     "dev": "webpack serve --open --config ./build/webpack.dev.js",
-    "build": "webpack --config ./build/webpack.prod.js"
+    "build": "webpack --config ./build/webpack.prod.js",
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/hojjatjokar/bokken/issues"
@@ -25,12 +26,14 @@
     "@babel/preset-env": "^7.14.1",
     "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.13.0",
+    "@testing-library/react": "^11.2.7",
     "@types/react": "^17.0.4",
     "@types/react-dom": "^17.0.3",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.4",
     "eslint-plugin-jest": "^24.3.6",
     "html-webpack-plugin": "^5.3.1",
+    "jest": "^26.6.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "style-loader": "^2.0.0",
