@@ -23,7 +23,9 @@
     "bootstrap": "npm ci && lerna bootstrap --hoist",
     "format": "prettier --write 'packages/*/!(node_modules)/**/*.{js,jsx,ts,tsx}'",
     "lint": "eslint 'packages/*/!(node_modules)/**/*.{js,jsx,ts,tsx}'",
-    "cm": "cz"
+    "cm": "cz",
+    "serve": "lerna exec --scope \"@bokken/${npm_config_package}\" npm run dev",
+    "build": "lerna exec --scope \"@bokken/${npm_config_package}\" npm run build"
   },
   "husky": {
     "hooks": {

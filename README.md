@@ -7,11 +7,29 @@
 
 ## Available scripts:
 
-`npm run test`
-`npm run dev`
-`npm run build`
-`npm run storybook`
-`npm run build-storybook`
+`serve`:
+
+```
+  npm run serve --package=app
+```
+
+package names could be:
+
+- app
+- utils
+- components
+
+`build`
+
+```
+  npm run serve --package=app
+```
+
+package names could be:
+
+- app (TODO)
+- utils
+- components (TODO)
 
 ## TODO:
 
