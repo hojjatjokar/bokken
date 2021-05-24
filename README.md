@@ -27,9 +27,20 @@ package names could be:
 
 package names could be:
 
-- app (TODO)
+- app
 - utils
-- components (TODO)
+- components
+
+`test`
+
+```
+  npm run test --package=app
+```
+
+package names could be:
+
+- app
+- utils
 
 ## TODO:
 

@@ -25,7 +25,8 @@
     "lint": "eslint 'packages/*/!(node_modules)/**/*.{js,jsx,ts,tsx}'",
     "cm": "cz",
     "serve": "lerna exec --scope \"@bokken/${npm_config_package}\" npm run dev",
-    "build": "lerna exec --scope \"@bokken/${npm_config_package}\" npm run build"
+    "build": "lerna exec --scope \"@bokken/${npm_config_package}\" npm run build",
+    "test": "lerna exec --scope \"@bokken/${npm_config_package}\" npm run test"
   },
   "husky": {
     "hooks": {
