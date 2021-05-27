@@ -6,7 +6,7 @@ afterEach(cleanup);
 
 describe('Button', () => {
   test('renders correctly', () => {
-    render(<Button />);
+    render(<Button label="Title" />);
   });
 
   test('renders correctly', async () => {
