@@ -42,6 +42,12 @@ package names could be:
 - app
 - utils
 
+`story`
+
+```
+  npm run story
+```
+
 ## TODO:
 
 - [x] Config monorepo
@@ -64,7 +70,7 @@ package names could be:
   - [x] Add build tools
   - [x] Add Typescript
 - [ ] Add package: utils
-  - [ ] Add tests
+  - [x] Add tests
   - [ ] Add build tools
 - [x] Add editorconfig
 - [x] Add gitignore

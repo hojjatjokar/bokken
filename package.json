@@ -26,7 +26,8 @@
     "cm": "cz",
     "serve": "lerna exec --scope \"@bokken/${npm_config_package}\" npm run dev",
     "build": "lerna exec --scope \"@bokken/${npm_config_package}\" npm run build",
-    "test": "lerna exec --scope \"@bokken/${npm_config_package}\" npm run test"
+    "test": "lerna exec --scope \"@bokken/${npm_config_package}\" npm run test",
+    "story": "lerna exec --scope \"@bokken/components\" npm run storybook"
   },
   "husky": {
     "hooks": {
